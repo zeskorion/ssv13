@@ -280,3 +280,22 @@
   Hunter-Dovetail:
   - rscadd: scaled_belly-r_leg, scaled_belly-l_leg, chubbybelly_small-r_leg, chubbybelly_small-l_leg
   - bugfix: hippo_upperjaw-head, hippo_lowerjaw-head, scaled_belly-groin
+2025-03-14:
+  Ace:
+  - maptweak: Temporarily deletes the security taurs from Thor.
+  - bugfix: Thor terrains did not actually use the randomized fauna made for it.
+  CHOMPStation2StaffMirrorBot:
+  - config: the example now has the correct flags for the BUILD and SOUND permissions
+  - bugfix: Fixed mantraps voring people who step on them when they're dead.
+  - image: modified the head states of DSI nevreans
+  - image: modified the torso states of DSI tesh and regular tesh
+  Diana:
+  - rscadd: Medical kiosk now informs you how to cure Dizziness and Jitteryness
+  Guti:
+  - image: Fixed mailman's hat
+  - maptweak: Added a couple of mail scanners and mail bags to all the maps
+  Kashargul:
+  - code_imp: more banned map types
+  tacoguy7765093:
+  - maptweak: Removed pointless ladder in explo shelter.
+  - maptweak: Soluna Nexus duplicate APCs removed.
