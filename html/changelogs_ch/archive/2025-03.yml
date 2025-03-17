@@ -366,3 +366,7 @@
   Will & Diana:
   - bugfix: Dullahans (among others) have proper offsets now
   - code_imp: Unit test forces coders to comply with proper offsetting of borg sprites
+2025-03-17:
+  CHOMPStation2StaffMirrorBot:
+  - rscadd: You can now adjust the transparency of your wings in the character editor
+      and related.
