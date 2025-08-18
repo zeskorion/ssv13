@@ -415,3 +415,7 @@
   - bugfix: Blitzrods use proper projectile code for mob hits
   Willburd:
   - bugfix: roundstart loyalty implant code will no longer ignore the config file
+2025-08-18:
+  Cameron-The-Raven:
+  - refactor: cleaned up icon files for gloves - there shouldn't be any player-facing
+      changes, but please report any invisible or bugged clothes in appropriate channels
