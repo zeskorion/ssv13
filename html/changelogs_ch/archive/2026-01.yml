@@ -247,3 +247,7 @@
   - bugfix: Fixed viruses not removing their mob reference when the mob was deleted.
   Will:
   - bugfix: Disposal expel runtime fixed
+2026-01-21:
+  CHOMPStation2StaffMirrorBot:
+  - bugfix: some missing vanity copy traits
+  - qol: reduce protean tab flicker
