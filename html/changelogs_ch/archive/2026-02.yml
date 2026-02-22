@@ -199,3 +199,12 @@
   - bugfix: Fixes the meowl attempting to check a null target
   - qol: Examining a Honey Extractor when you're next to it will now tell you how
       much honey it contains (if any)
+2026-02-22:
+  CHOMPStation2StaffMirrorBot:
+  - bugfix: Fixes synx sonar ping to a working cooldown
+  - bugfix: borg sleepers showing a 0 where they shouldn't
+  - qol: gives multiple robot UIs robot themes
+  FluffMedic:
+  - maptweak: Some POIs have been altered to exchange some threats for other challenges
+  Will:
+  - bugfix: Catslug belly markings can be colored
