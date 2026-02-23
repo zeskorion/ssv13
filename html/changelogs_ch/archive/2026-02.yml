@@ -208,3 +208,17 @@
   - maptweak: Some POIs have been altered to exchange some threats for other challenges
   Will:
   - bugfix: Catslug belly markings can be colored
+2026-02-23:
+  CHOMPStation2StaffMirrorBot:
+  - rscadd: adds a game collection table and pda app
+  - refactor: moves a lot of non static datum paths explicitly to /datum/
+  - bugfix: Made Bad shot and thick digits mutually exclusive
+  - spellcheck: fixes the spelling in the not implemented pref messages
+  - bugfix: Bone related traits now properly exclude each other.
+  - code_imp: dependency update
+  Cerami:
+  - bugfix: Disables the AFK prey preference from functioning while someone is dead
+  Diana:
+  - code_imp: rubber duckies don't destroy the universe anymore
+  Will:
+  - code_imp: adds smes rcon name_tag unit test
