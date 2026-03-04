@@ -1,5 +1,0 @@
-author: "zeskorion"
-delete-after: True
-changes:
-  - bugfix: "CS upkeep"
-  - bugfix: "removes Persistent Industrial Sheet Storage from cetus"
