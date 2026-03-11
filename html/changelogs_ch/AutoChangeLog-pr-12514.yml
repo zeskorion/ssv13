@@ -1,0 +1,4 @@
+author: "zeskorion"
+delete-after: True
+changes:
+  - bugfix: "cleans up P.I.S.S."
