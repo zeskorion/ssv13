@@ -228,6 +228,21 @@
 /obj/random/mob/mouse,
 /turf/simulated/floor/tiled/freezer,
 /area/maintenance/ab_Kitchen)
+"aaD" = (
+/obj/machinery/light/fluorescent{
+	pixel_y = 6
+	},
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "anomblast";
+	name = "Anomaly Testing Blast Doors"
+	},
+/obj/effect/wingrille_spawn/reinforced_phoron,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/reinforced,
+/area/rnd/cetus/meteor/anomtest)
 "aaE" = (
 /obj/machinery/door/firedoor/glass,
 /obj/structure/window/maintenance_panel{
@@ -695,8 +710,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/rnd/cetus/meteor/anomtest)
 "abx" = (
-/obj/structure/closet/emcloset,
-/obj/effect/floor_decal/industrial/outline/cut_corners/yellow,
+/obj/machinery/power/grounding_rod,
+/obj/effect/floor_decal/industrial/hatch{
+	color = "purple"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/rnd/cetus/meteor/anomtest)
 "aby" = (
@@ -773,9 +790,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/rnd/cetus/meteor/anomtest)
 "abE" = (
@@ -874,6 +889,7 @@
 /obj/effect/floor_decal/corner/purple/bordercorner,
 /obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/spline/plain/three_quarters,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/milspec/raised,
 /area/rnd/cetus/meteor/anomtest)
 "abL" = (
@@ -937,7 +953,6 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/cetus/meteor/anomtest)
 "abO" = (
-/obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/light/fluorescent{
 	pixel_y = 6
 	},
@@ -945,6 +960,10 @@
 	dir = 4;
 	id = "anomblast";
 	name = "Anomaly Testing Blast Doors"
+	},
+/obj/effect/wingrille_spawn/reinforced_phoron,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
 	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
@@ -1006,6 +1025,7 @@
 /obj/effect/floor_decal/industrial/warning/color/corner/red{
 	dir = 1
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
 "abV" = (
@@ -1037,7 +1057,6 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/cetus/meteor/anomtest)
 "abX" = (
-/obj/effect/wingrille_spawn/reinforced,
 /obj/effect/floor_decal/industrial/warning/tile,
 /obj/effect/floor_decal/industrial/warning/color/tile/red,
 /obj/machinery/door/blast/regular{
@@ -2096,16 +2115,6 @@
 /turf/simulated/floor/plating,
 /area/engineering/cetus/meteor/engineroom)
 "aAA" = (
-/obj/machinery/door/window/brigdoor/southleft{
-	req_one_access = list(7, 9, 39, 55);
-	req_access = list();
-	name = "Test Chamber"
-	},
-/obj/machinery/door/window/brigdoor/northleft{
-	req_access = list();
-	req_one_access = list(7, 9, 39, 55);
-	name = "Test Chamber"
-	},
 /obj/effect/floor_decal/industrial/stand_clear/red,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -2115,6 +2124,13 @@
 	dir = 4;
 	id = "anomblast";
 	name = "Anomaly Testing Blast Doors"
+	},
+/obj/machinery/door/airlock/glass_research{
+	name = "Anomaly Testing";
+	req_access = list(65)
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
 	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
@@ -3667,12 +3683,12 @@
 /turf/simulated/floor/plating,
 /area/engineering/cetus/meteor/engineroom)
 "bsy" = (
-/obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id = "anomblast";
 	name = "Anomaly Testing Blast Doors"
 	},
+/obj/effect/wingrille_spawn/reinforced_phoron,
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
 "bsG" = (
@@ -17769,6 +17785,9 @@
 /obj/effect/floor_decal/industrial/hatch{
 	color = "purple"
 	},
+/obj/structure/sign/deathsposal{
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/dark,
 /area/rnd/cetus/meteor/anomtest)
 "iUi" = (
@@ -29553,6 +29572,7 @@
 /obj/effect/floor_decal/industrial/warning/color/red{
 	dir = 1
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
 "oSU" = (
@@ -40596,7 +40616,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/rnd/cetus/meteor/toxtest)
 "uwq" = (
-/obj/structure/closet/radiation,
 /obj/effect/floor_decal/industrial/outline/cut_corners/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -40604,6 +40623,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/dark,
 /area/rnd/cetus/meteor/anomtest)
 "uwt" = (
@@ -77114,7 +77134,7 @@ abq
 ach
 aca
 abU
-abO
+aaD
 xft
 abE
 abA
