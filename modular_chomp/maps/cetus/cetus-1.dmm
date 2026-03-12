@@ -941,6 +941,11 @@
 /obj/machinery/light/fluorescent{
 	pixel_y = 6
 	},
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "anomblast";
+	name = "Anomaly Testing Blast Doors"
+	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
 "abP" = (
@@ -1035,6 +1040,10 @@
 /obj/effect/wingrille_spawn/reinforced,
 /obj/effect/floor_decal/industrial/warning/tile,
 /obj/effect/floor_decal/industrial/warning/color/tile/red,
+/obj/machinery/door/blast/regular{
+	id = "anomemit";
+	name = "Emitter Hatch"
+	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
 "abY" = (
@@ -2102,6 +2111,11 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/warning,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "anomblast";
+	name = "Anomaly Testing Blast Doors"
+	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
 "aAJ" = (
@@ -3654,6 +3668,11 @@
 /area/engineering/cetus/meteor/engineroom)
 "bsy" = (
 /obj/effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "anomblast";
+	name = "Anomaly Testing Blast Doors"
+	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
 "bsG" = (
@@ -47343,6 +47362,24 @@
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/button/remote/blast_door{
+	desc = "A remote control-switch for the AI core maintenance door.";
+	id = "anomemit";
+	name = "Emitter Hatch";
+	pixel_x = 26;
+	pixel_y = 6;
+	req_access = list(16);
+	dir = 8
+	},
+/obj/machinery/button/remote/blast_door{
+	desc = "A remote control-switch for the AI core maintenance door.";
+	id = "anomblast";
+	name = "Anomaly Blast Doors";
+	pixel_x = 26;
+	pixel_y = -5;
+	req_access = list(16);
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/cetus/meteor/anomtest)
 "xIG" = (
