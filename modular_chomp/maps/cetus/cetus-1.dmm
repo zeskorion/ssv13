@@ -228,21 +228,6 @@
 /obj/random/mob/mouse,
 /turf/simulated/floor/tiled/freezer,
 /area/maintenance/ab_Kitchen)
-"aaD" = (
-/obj/machinery/light/fluorescent{
-	pixel_y = 6
-	},
-/obj/machinery/door/blast/regular/open{
-	dir = 4;
-	id = "anomblast";
-	name = "Anomaly Testing Blast Doors"
-	},
-/obj/effect/wingrille_spawn/reinforced_phoron,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/turf/simulated/floor/reinforced,
-/area/rnd/cetus/meteor/anomtest)
 "aaE" = (
 /obj/machinery/door/firedoor/glass,
 /obj/structure/window/maintenance_panel{
@@ -987,6 +972,21 @@
 /turf/simulated/floor/tiled/old_tile/yellow,
 /area/maintenance/cetus/workshop)
 "abQ" = (
+/obj/machinery/light/fluorescent{
+	pixel_y = 6
+	},
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "anomblast";
+	name = "Anomaly Testing Blast Doors"
+	},
+/obj/effect/wingrille_spawn/reinforced_phoron,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/reinforced,
+/area/rnd/cetus/meteor/anomtest)
+"abR" = (
 /obj/machinery/shieldwallgen{
 	anchored = 1;
 	req_access = list(47);
@@ -1002,23 +1002,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/rnd/cetus/meteor/anomtest)
-"abR" = (
+"abS" = (
 /obj/machinery/light/small/yellowed{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/foremed)
-"abS" = (
+"abT" = (
 /turf/simulated/floor/tiled/neutral,
 /area/maintenance/cetus/mechbay)
-"abT" = (
+"abU" = (
 /obj/effect/floor_decal/borderfloorblack/corner,
 /obj/effect/floor_decal/corner/purple/bordercorner,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
 /area/rnd/cetus/meteor/anomtest)
-"abU" = (
+"abV" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
@@ -1028,14 +1028,14 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
-"abV" = (
+"abW" = (
 /obj/effect/floor_decal/industrial/warning{
 	layer = 3;
 	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/foremed)
-"abW" = (
+"abX" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
@@ -1056,7 +1056,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/cetus/meteor/anomtest)
-"abX" = (
+"abY" = (
 /obj/effect/floor_decal/industrial/warning/tile,
 /obj/effect/floor_decal/industrial/warning/color/tile/red,
 /obj/machinery/door/blast/regular{
@@ -1065,7 +1065,7 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
-"abY" = (
+"abZ" = (
 /obj/effect/floor_decal/industrial/warning/tile,
 /obj/effect/floor_decal/industrial/warning/color/tile/red,
 /obj/effect/floor_decal/industrial/arrows{
@@ -1074,7 +1074,7 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
-"abZ" = (
+"aca" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/effect/floor_decal/industrial/warning/color/full/red,
 /obj/effect/floor_decal/industrial/rad_floor{
@@ -1082,7 +1082,7 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
-"aca" = (
+"acb" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
@@ -1095,12 +1095,12 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
-"acb" = (
+"acc" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/foremed)
-"acc" = (
+"acd" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
@@ -1114,25 +1114,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/rnd/cetus/meteor/anomtest)
-"acd" = (
+"ace" = (
 /obj/effect/floor_decal/industrial/hatch{
 	color = "purple"
 	},
 /obj/structure/frame,
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning/color/red,
-/turf/simulated/floor/reinforced,
-/area/rnd/cetus/meteor/anomtest)
-"ace" = (
-/obj/machinery/anomaly_harvester,
-/obj/effect/floor_decal/industrial/hatch{
-	color = "purple"
-	},
-/obj/effect/floor_decal/industrial/warning,
-/obj/effect/floor_decal/industrial/warning/color/red,
-/obj/effect/floor_decal/industrial/arrows{
-	color = "purple"
-	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
 "acf" = (
@@ -1158,6 +1146,18 @@
 /obj/effect/floor_decal/industrial/hatch{
 	color = "purple"
 	},
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/warning/color/red,
+/obj/effect/floor_decal/industrial/arrows{
+	color = "purple"
+	},
+/turf/simulated/floor/reinforced,
+/area/rnd/cetus/meteor/anomtest)
+"aci" = (
+/obj/machinery/anomaly_harvester,
+/obj/effect/floor_decal/industrial/hatch{
+	color = "purple"
+	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
@@ -1166,11 +1166,11 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/rnd/cetus/meteor/anomtest)
-"aci" = (
+"acj" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/portsec)
-"acj" = (
+"ack" = (
 /obj/structure/table/rack,
 /obj/item/clothing/suit/bio_suit/anomaly,
 /obj/item/clothing/head/bio_hood/anomaly,
@@ -1191,7 +1191,7 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/rnd/cetus/meteor/anomtest)
-"ack" = (
+"acl" = (
 /obj/structure/railing/grey{
 	dir = 1
 	},
@@ -1202,14 +1202,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/cetus/meteor/anomtest)
-"acl" = (
+"acm" = (
 /obj/structure/stairs/spawner/east,
 /obj/structure/railing/grey{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/cetus/meteor/anomtest)
-"acm" = (
+"acn" = (
 /obj/effect/floor_decal/industrial/warning{
 	layer = 3;
 	dir = 1
@@ -1225,7 +1225,7 @@
 	},
 /turf/simulated/floor/tiled/neutral,
 /area/maintenance/cetus/hallway)
-"acn" = (
+"aco" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/machinery/door/firedoor/glass,
 /obj/effect/floor_decal/rust,
@@ -1244,7 +1244,7 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/portsec)
-"aco" = (
+"acp" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -1261,7 +1261,7 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/portsec)
-"acp" = (
+"acq" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -1285,7 +1285,7 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/portsec)
-"acq" = (
+"acr" = (
 /obj/effect/floor_decal/rust,
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -1294,14 +1294,14 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/portsec)
-"acr" = (
+"acs" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/portsec)
-"acs" = (
+"act" = (
 /obj/random/trash,
 /obj/random/junk,
 /obj/structure/cable/green{
@@ -1315,7 +1315,7 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/portsec)
-"act" = (
+"acu" = (
 /obj/structure/window/maintenance_panel{
 	dir = 8
 	},
@@ -1328,7 +1328,7 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/cetus/meteor/pond)
-"acu" = (
+"acv" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
@@ -74548,7 +74548,7 @@ nCi
 ckD
 rXV
 rZl
-acm
+acn
 xzl
 xzl
 vKA
@@ -74802,7 +74802,7 @@ hGH
 asH
 qgf
 vVN
-acu
+acv
 hJC
 one
 dLP
@@ -74811,7 +74811,7 @@ mnQ
 udu
 cMW
 gvD
-abS
+abT
 niP
 aYz
 bMI
@@ -75064,7 +75064,7 @@ rQb
 jGJ
 leg
 sur
-acn
+aco
 abq
 abq
 abq
@@ -75322,9 +75322,9 @@ wkp
 tFV
 bND
 sur
-aco
+acp
 abq
-acj
+ack
 abq
 abq
 abq
@@ -75580,12 +75580,12 @@ gBO
 jqH
 iJS
 iII
-acp
+acq
 jPT
 xru
-acc
+acd
 dgG
-abT
+abU
 abM
 fPq
 uwq
@@ -75838,11 +75838,11 @@ eKW
 bzB
 fgx
 aaE
-acq
+acr
 abq
-ack
+acl
 abq
-abW
+abX
 xIE
 abN
 abJ
@@ -76096,9 +76096,9 @@ hRk
 bNw
 hRk
 dif
-acr
+acs
 abq
-acl
+acm
 abq
 fhG
 abq
@@ -76354,11 +76354,11 @@ uYx
 bNw
 bNw
 xPi
-acs
+act
 abq
 abq
 abq
-abX
+abY
 abq
 bsy
 pwg
@@ -76615,8 +76615,8 @@ dif
 tqS
 abq
 abq
-acd
-abY
+ace
+abZ
 oSP
 abO
 lxR
@@ -76869,12 +76869,12 @@ bQd
 uYx
 wff
 aNh
-act
+acu
 tqS
 abq
 abq
-ace
-abZ
+ach
+aca
 aAJ
 aAA
 abK
@@ -77131,10 +77131,10 @@ bNw
 tqS
 abq
 abq
-ach
-aca
-abU
-aaD
+aci
+acb
+abV
+abQ
 xft
 abE
 abA
@@ -77385,7 +77385,7 @@ mem
 lrI
 uLa
 eai
-act
+acu
 tqS
 abq
 abq
@@ -77650,7 +77650,7 @@ abq
 abq
 abq
 abq
-abQ
+abR
 gUL
 abI
 abB
@@ -77901,7 +77901,7 @@ bWR
 rJM
 aNh
 aNh
-act
+acu
 tqS
 vUq
 aaF
@@ -78421,10 +78421,10 @@ fqX
 aaF
 tqS
 aaF
-aci
-acb
-abV
-abR
+acj
+acc
+abW
+abS
 yav
 yav
 yav
