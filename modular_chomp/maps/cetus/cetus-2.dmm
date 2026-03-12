@@ -2092,6 +2092,9 @@
 	},
 /obj/item/toy/plushie/lizardplushie/kobold,
 /obj/machinery/recharger,
+/obj/structure/cable/green{
+	icon_state = "6-9"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/rnd/workshop)
 "axk" = (
