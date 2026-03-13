@@ -203,3 +203,7 @@
   - refactor: package wrapper and gift wrap cleaned up
   zeskorion:
   - bugfix: cleans up P.I.S.S.
+2026-03-13:
+  Wide Eyes:
+  - rscadd: adds anomaly research to cetus
+  - bugfix: few cetus fixes
