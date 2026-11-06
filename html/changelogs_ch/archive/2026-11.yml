@@ -36,3 +36,12 @@
 2026-11-04:
   Will:
   - maptweak: Emitter in Misc Lab no longer activates when the engine emitter is activated
+2026-11-06:
+  ReoDaProtovali:
+  - bugfix: fixes toilets not linking to biowaste tanks.
+  - code_imp: Removes a file that was deleted on virgo.
+  SaintLuther:
+  - rscadd: Sewer system for southern cross, you can flush the toilets now.
+  - rscadd: Prison toilet so people can not escape the brig
+  zeskorion:
+  - maptweak: a few cetus changes/fixes
